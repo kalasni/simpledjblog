@@ -1,0 +1,8 @@
+.directory
+
+# Python bytecode
+*.pyc
+__pycache_
+
+# Ignorar los siguientes directorios_
+env/
