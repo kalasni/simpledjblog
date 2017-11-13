@@ -28,6 +28,7 @@ h1 a {
 .date {
   float: right;
   color: #828282;
+  margin-top: 20px;
 }
 
 .save {
