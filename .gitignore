@@ -1,4 +1,5 @@
 .directory
+local_settings.py
 
 # Python bytecode
 *.pyc
