@@ -12,4 +12,13 @@
                 <a href="{% url 'post_detail' pk=post.pk %}">Comments: {{ post.approved_comments.count }}</a>
             </div>
         {% endfor %}
+            <div class="paginate">
+                {% if posts.has_previous %}
+                    <a href="?page={{ posts.previous_page_number }}" align="center" > < anterior | </a>
+                {% endif %}
+
+                {% if posts.has_next %}
+                    <a href="?page={{ posts.next_page_number }}" align="center">| siguiente ></a>
+                {% endif %}
+            </div>
     {% endblock %}
